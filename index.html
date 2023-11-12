@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="game-container">
+      <div class="container-wrap">
+          <img src="./nojnici.jpg" alt="">
+          <input type="button" id="nojnici" value="Ножница">
+      </div>
+      <div class="container-wrap">
+          <img src="./kamen.webp" alt="">
+          <input type="button" id="kamen" value="Камень">
+      </div>
+      <div class="container-wrap">
+          <img src="./bymaga.png" alt="">
+          <input type="button" id="bymaga" value="Бумага">
+      </div>
+  </div>
+   <div class="text-game">
+       <div class="img-container">
+           <p>Выбор игрока: <span id="userGame"></span></p>
+           <img src="" alt="" id="userImg">
+       </div>
+       <div class="img-container">
+           <p>Выбор Компьютера: <span id="computerGame"></span></p>
+           <img src="" alt="" id="computerImg">
+       </div>
+       <p>Результат:<span id="gameRes"></span></p>
+   </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>

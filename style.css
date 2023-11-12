@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.game-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.container-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.img-container:nth-child(1) p{
+    color: yellowgreen;
+    font-size: 22px;
+}
+.img-container:nth-child(2) p{
+    color: dodgerblue;
+    font-size: 22px;
+}
+.text-game p:nth-child(3){
+    color: darkred;
+    font-size: 22px;
+}
+input{
+    padding: 10px 20px;
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
